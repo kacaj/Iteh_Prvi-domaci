@@ -1,0 +1,71 @@
+:root {
+    --pozadina-kartica: rgb(148, 148, 133);
+   
+}
+
+#dodavanje-novih-slika {
+    border-radius: 12px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+body {
+    
+    background-image: url(https://www.womangettingmarried.com/wp-content/uploads/2018/06/online-wedding-photo-albums.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card {
+    background-color: var(--pozadina-kartica) !important;
+    color: white;
+}
+
+#sortiranje-label {
+    color: white !important;
+
+}
+
+#login-forma {
+    color: white;
+    
+}
+
+.h-100 {
+    height: 100vh !important;
+}
+
+.modal label, .modal .modal-title{
+    color: black !important;
+}
+
+.btn{
+    background-color: rgb(143, 91, 48);
+    border-color: beige;
+    
+}
+.site-title{
+    font-size: 40px;
+    font-weight: 700;
+    position: fixed; 
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+footer {
+    
+    background-color: rgb(143, 91, 48);
+    color: rgb(47, 43, 43);
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6.5rem;           
+}
+
+
+
